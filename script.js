@@ -1,6 +1,6 @@
 (async function checkForUpdates() {
     const currentVersion = "1.0";
-    const versionUrl = "https://raw.githubusercontent.com/ivysone/Will-you-be-my-Valentine-/main/version.json"; 
+    const versionUrl = "https://raw.githubusercontent.com/Ygg-mak/Valentine/main/version.json"; 
 
     try {
         const response = await fetch(versionUrl);
@@ -54,16 +54,16 @@
 })();
 */
 const messages = [
-    "Are you sure?",
-    "Really sure??",
-    "Are you positive?",
-    "Pookie please...",
-    "Just think about it!",
-    "If you say no, I will be really sad...",
-    "I will be very sad...",
-    "I will be very very very sad...",
-    "Ok fine, I will stop asking...",
-    "Just kidding, say yes please! ❤️"
+    "Tu es sûre?",
+    "Vraiment??",
+    "Vraiment sûre?",
+    "Ohrrr s'il te plaît",
+    "Réfléchis bien!",
+    "Arrête de faire genre ",
+    "Ohrrr s'il te plaît",
+    "...",
+    "Ok, j'arrête",
+    "Je rigole ❤️"
 ];
 
 let messageIndex = 0;
